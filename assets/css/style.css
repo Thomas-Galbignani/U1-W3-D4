@@ -1,0 +1,63 @@
+body {
+  background: #290707;
+  background: linear-gradient(
+    90deg,
+    rgba(41, 7, 7, 1) 0%,
+    rgba(253, 29, 29, 1) 100%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  color: whitesmoke;
+}
+h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.numeri-tab div {
+  display: inline-block;
+  width: 16%;
+  height: 106px;
+  position: relative;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 3em;
+  text-align: center;
+  border: solid 2px whitesmoke;
+  margin-bottom: 1em;
+  background-color: wheat;
+  color: red;
+}
+.numeri-tab h3 {
+  font-size: 2.1rem;
+}
+.numeri-tab div.selezionato {
+  background-color: red;
+  color: wheat;
+  border: solid 2px black;
+}
+
+footer button {
+  line-height: 1;
+  text-decoration: none;
+  color: #333333;
+  font-size: 18px;
+  border-radius: 0px;
+  width: 400px;
+  height: 100px;
+  font-weight: bold;
+  border: 2px solid #333333;
+  transition: 0.3s;
+  box-shadow: 5px 5px 0px 0px rgba(51, 51, 51, 1);
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 3em;
+}
+footer button:hover {
+  box-shadow: 0 0 #333;
+  color: #fff;
+  background-color: #333;
+}
